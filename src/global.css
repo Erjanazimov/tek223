@@ -1,0 +1,693 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    padding-bottom:80px;
+}
+
+.textName{
+    color: black;
+}
+
+.textNewsanem{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+
+.imgNewsPos{
+    width: 400px;
+    height: 300px;
+}
+
+.newsflex{
+    display: flex;
+}
+
+.ptNews{
+    padding-left: 26px;
+}
+
+.containerM{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.moi{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imgNews{
+    width: 100%;
+    height: 100%;
+}
+
+.containerNav{
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.fons_footer{
+    background:linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+
+.nuy{
+    color: #fff;
+}
+
+.jk{
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer_ul > li > a{
+    color: #fff;
+    line-height: 2;
+}
+
+.footer_ul > li > a:hover{
+    color: black;
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.header{
+    display: table;
+    width: 100%;
+    padding: 0;
+    background: url("https://kartinkin.net/uploads/posts/2021-07/1625509134_23-kartinkin-com-p-tkhekvondo-fon-krasivie-foni-24.jpg") center center no-repeat;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.fh{
+    font-size: 17px;
+    margin-left: 26px;
+    color: #fff;
+}
+
+.aboutPos{
+    display: flex;
+}
+
+.imgAbout{
+    width: 300px;
+    height: 300px;
+}
+
+.fh:hover{
+    color: #999999;
+}
+
+.dok{
+    display: none;
+}
+
+.mt{
+    margin-top: 85px;
+}
+
+.lkl{
+    margin-left: 30px;
+}
+
+.voyt{
+    display: none;
+}
+
+.newsfons{
+    width: 360px;
+    height: 100%;
+    border-radius: 10px;
+    /*background-color: #fff;*/
+}
+
+.linkNews{
+    margin-top: -12px;
+    line-height: 18px;
+    color: #888;
+    font-style: italic;
+    float: left;
+    font-size: 14px;
+}
+
+.text-left{
+    text-align: left;
+    font-weight: bold;
+    margin-top: -15px;
+}
+
+.textNews{
+    text-align: left;
+    font-size: 14px;
+    color: black;
+}
+
+.NewsFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.newsPost{
+    overflow: auto;
+    height: 200px;
+}
+
+.newsfons > h3{
+    text-align: center;
+}
+
+.newsfons > p{
+    text-align: center;
+}
+
+.hr{
+    width: 100%;
+}
+
+.newsText{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.fh:hover{
+    border-bottom: 1px solid black;
+}
+.header_t{
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.lh{
+    line-height: 2;
+}
+
+.header_text{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.dFlex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnPadat{
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    padding: 15px 25px 15px 25px;
+    border-radius: 30px;
+}
+
+.fons_Trainer{
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.imgTraines{
+    width: 240px;
+    height: 300px;
+}
+
+.modalAccounts{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: -30px;
+    border-bottom: 1px solid #999999;
+}
+
+.modalAccounts > p{
+    margin-top: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.activeAccount{
+    font-weight: bold;
+    color: blue;
+}
+
+.error{
+    border: 3px solid red;
+}
+
+
+.errorRed{
+    color: red;
+    font-size: 12px;
+    content: attr(data-toolup);
+}
+
+.errorRed::after{
+    color: red;
+    font-size: 12px;
+
+}
+
+.person_item{
+    padding: 0 15px;
+}
+
+.person_item a{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.person_item_img {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    max-width: 90%;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+}
+
+.person_item_img > img{
+    display: block;
+    width: 100%;
+}
+
+.person_item_title {
+    display: block;
+    height: 40px;
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2e2e2e;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.popit{
+    display: flex;
+}
+
+.userAccountAdp{
+    display: none;
+}
+
+.person_item_details {
+    display: block;
+    height: 36px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #525252;
+    overflow: hidden;
+}
+
+.pading{
+    padding: 20px 0 90px 0;
+}
+
+.trg{
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+    font-weight: 800;
+    font-size: 34px;
+    color: #333;
+}
+
+
+.about_fons{
+    background-color: white;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.about_img{
+    width: 520px;
+    margin-top: 10px;
+    background: #fff;
+    border-right: 0;
+    box-shadow: 0 0 50px rgb(0 0 0 / 6%);
+}
+
+.xtx{
+    line-height: 24px;
+    margin: 30px 0;
+}
+
+.fonst_gal{
+    background-color: #f6f6f6;
+    width: 100%;
+}
+
+.images_galery > img{
+    width: 300px;
+    height: 200px;
+}
+
+.personf{
+    width: 300px;
+    display: block;
+    text-align: left;
+}
+
+.mpo{
+    margin-left: 20px;
+}
+
+.efiu{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.op {
+    width: 300px;
+    display: block;
+    height: 36px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #525252;
+    overflow: hidden;
+}
+
+.lhd{
+    line-height: 0;
+    color: #ebe9e9;
+    font-size: 13px;
+}
+
+.person_item_img{
+    margin-top: 20px;
+}
+
+#about h2{
+    display: flex;
+    justify-content: left;
+}
+
+.colorBla{
+    color: black;
+}
+
+.userName{
+    color: black;
+}
+
+@media (max-width: 1199px) {
+    .containerM{
+        width: 80%;
+    }
+
+    .fh{
+        font-size: 16px;
+        margin-left: 14px;
+    }
+
+    .lkl{
+        margin-left: 0px;
+    }
+
+    .moi{
+        justify-content: space-between;
+    }
+
+}
+
+@media (max-width: 991px) {
+    .containerM{
+        width: 90%;
+    }
+
+    .userAccountAdp{
+        display: block;
+    }
+
+    .userAccount{
+        display: none;
+    }
+
+    .header_t{
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
+    .header_text{
+        font-size: 52px;
+    }
+
+    .dok{
+        display: block;
+    }
+
+    .efiu{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .about_img{
+        margin-bottom: 20px;
+    }
+
+    .about_img > img{
+        width: 400px;
+        height: 400px;
+    }
+
+    .person_item{
+        margin-bottom: 30px;
+    }
+
+    .voyti{
+        display: none;
+    }
+
+    .voyt{
+        display: block;
+    }
+
+    .newsflex{
+        display: block;
+    }
+
+    .imgNewsPos{
+        width: 100%;
+        height: 100%;
+    }
+
+    .ptNews{
+        padding-top: 24px;
+        padding-left: 0px;
+    }
+
+    .moi{
+        justify-content: space-between;
+    }
+
+    .aboutPos{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .imgAbout{
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .text{
+        width: 95%;
+    }
+
+    .footer{
+        display: flex;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .lkk{
+        text-align: left;
+    }
+
+    #about img{
+        width: 100%;
+        height: 300px;
+        border-radius: 100px;
+    }
+
+    .moi{
+        justify-content: center;
+    }
+
+    #about h2{
+        display: flex;
+        justify-content: left;
+        font-size: 26px;
+        text-align: left;
+    }
+
+    .xtx{
+        text-align: left;
+    }
+
+    .person_item_img{
+        margin-top: 5px;
+    }
+
+    .trg{
+        font-size: 24px;
+    }
+
+    .popit{
+        flex-wrap: wrap;
+    }
+
+    .mpo{
+        margin-left: 0px;
+        margin-top:-80px;
+        text-align: center;
+    }
+
+    .mpo > h3{
+        text-align: left;
+    }
+
+    .mpo >  p{
+        text-align: left;
+    }
+
+}
+
+@media (max-width: 575px) {
+    #about img{
+        width: 100%;
+        height: 200px;
+    }
+    .containerM{
+        width: 100%;
+    }
+
+    .lkl{
+        font-size: 15px;
+    }
+
+    .section-title h2{
+        font-size: 30px;
+    }
+
+    .footer{
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .footer_ul > li{
+        text-align: center;
+    }
+
+    .lkk{
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .mt{
+        margin-top: 57px;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+    .header_t{
+        margin-top: 35%;
+        margin-bottom: 35%;
+    }
+
+    .lkl{
+        font-size: 14px;
+    }
+    .header_text{
+        font-size: 42px;
+    }
+
+    .logo{
+        font-size: 16px;
+    }
+
+    #about h2{
+        font-size: 24px;
+    }
+
+    .text{
+        font-size: 14px;
+    }
+
+    .lkl{
+        width: 20px;
+        font-size: 12px;
+    }
+
+    .userName{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .logo{
+        font-size: 16px;
+    }
+
+    .lkl{
+        width: 20px;
+        font-size: 11px;
+    }
+}
